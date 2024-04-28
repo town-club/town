@@ -47,9 +47,9 @@ export default function Pass({
     boxRef.current.addEventListener("transitionend", () => {
       console.log("finished");
       setDialog([
-        "欢迎来到互联网求职小镇，这里有最接近真实职场的职业信息和发展路径，一起来探索互联网行业吧！！",
-        "小镇有六个互联网核心领域，四处点点会有惊喜哦",
-        "每个部门都有着自己的特色，快来看看哪个职位更适合你吧！",
+        "NCUer你好，家园小镇正在对外开放中，欢迎你的到来！",
+        "顶部有标识的建筑可以参观游玩  PS：在某些角落还藏着彩蛋喔~",
+        "右下角的按钮设有报名通道,随时欢迎你加入我们",
       ]);
       Lottie.play("town");
       setIsPass(false);
