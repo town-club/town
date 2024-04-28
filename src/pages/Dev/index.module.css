@@ -1,0 +1,49 @@
+.page {
+  background: #e9daa2;
+  position: relative;
+}
+.modalText1 {
+  color: #000;
+  font-family: PingFang SC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 75%;
+  margin-top: 16px;
+}
+.modalImg1 {
+  width: 75%;
+}
+.modalOut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.map {
+  overflow-y: scroll;
+}
+.outter {
+  background-color: lightblue;
+  overflow-x: scroll;
+  width: 100%;
+}
+.white-background {
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+}
+.back{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 20px;
+  margin-left: 10px;
+  width:50px;
+  z-index: 99;
+}

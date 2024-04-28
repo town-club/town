@@ -1,0 +1,30 @@
+.x{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding:20px;
+    width: 271px;
+    height: 319px;
+    text-align: justify;
+    font-family: PingFang SC;
+    letter-spacing: -0.4px;
+    color: rgba(255, 255, 255, 0.80);
+    background-color: #1A1A1A;
+    border-radius: 25px;
+}
+.img{
+    width:100%;
+}
+.title{
+    font-size: 18px;
+    font-weight: 400;
+    white-space: pre-wrap;
+}
+
+.value{
+    width:100%;
+    font-size: 16px;
+    font-weight: 400;
+    white-space: pre-wrap;
+}

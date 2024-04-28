@@ -1,0 +1,29 @@
+.x {
+  height: 100%;
+  position: relative;
+  transition: 2s all ease-in-out;
+  overflow-y: scroll;
+}
+
+.right-arrow{
+  position:absolute;
+  top:0;
+  bottom:0;
+  height:10%;
+  right:5px;
+  margin:auto;
+  opacity:0.7;
+  /* transition: 0.5s all ease-in-out; */
+}
+
+.lottie-x {
+  margin: auto;
+  touch-action: pan-x pan-y pinch-zoom;
+  transition: all 1s ease-in-out;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+/*隐藏竖直滚动条*/
+.lottie-x::-webkit-scrollbar {
+  display: none;
+}

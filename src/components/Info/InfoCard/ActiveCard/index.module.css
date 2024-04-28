@@ -1,0 +1,36 @@
+.x{
+    width: 271px;
+    height: 342px;
+    padding: 30px 24px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+    border-radius: 25px;
+    background: linear-gradient(0deg, #1A1A1A 0%, #1A1A1A 100%), rgba(76, 76, 76, 0.80);
+}
+.title{
+    color: var(--word, rgba(255, 255, 255, 0.80));
+    text-align: justify;
+    font-family: PingFang SC;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.4px;
+}
+.img{
+    height:150px;
+}
+.text{
+    color: rgba(255, 255, 255, 0.80);
+    text-align: justify;
+    font-family: PingFang SC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.4px;
+}

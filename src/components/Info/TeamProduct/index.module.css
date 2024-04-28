@@ -1,0 +1,54 @@
+.x {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.active-x {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 44px 24px;
+  background-color: black;
+  color: white;
+}
+.active-x > h1 {
+  font-family: PingFang SC;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+.active-x > h2 {
+  font-family: PingFang SC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  margin-bottom: 28px;
+}
+.scroll {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.scroll-x {
+  width: 100%;
+  overflow-x: scroll;
+}
+/*需要滚动条*/
+.scroll-x::-webkit-scrollbar {
+  display: block;
+  width: 10px;
+  height: 10px;
+}
+.next {
+  width: 31px;
+  margin-top: 57px;
+  align-self: center;
+}

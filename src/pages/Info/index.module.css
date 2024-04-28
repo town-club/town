@@ -1,0 +1,109 @@
+.box {
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* overflow: hidden; */
+  position: relative;
+}
+.x {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.join-x {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  color: #1c1c1c;
+  padding: 30px 24px;
+  margin-bottom: 50px;
+}
+.join-x > h1 {
+  font-family: PingFang SC;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+.join-content {
+  font-family: PingFang SC;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+}
+.join-important {
+  font-family: PingFang SC;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+  text-align: center;
+}
+.foot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  color: #000;
+}
+.foot > p {
+  text-align: center;
+}
+.foot-notice {
+  text-align: center;
+  font-family: PingFang SC;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+}
+.foot-sign {
+  color: #a66541;
+  text-align: center;
+  font-family: PingFang SC;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+  margin-bottom: 20px;
+}
+.qq-num-x {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: center;
+}
+.qq-num > p {
+  color: #000;
+  font-family: PingFang SC;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.qq-party {
+  width: 70%;
+}
+.button-x{
+  position: fixed;
+  top:20px;
+  left:20px;
+}
+.back{
+  width: 75px;
+  height: 30px;
+  background: rgba(255,255,255,0.7);
+  border-radius: 12px;
+  z-index: 99999;
+}
+
+
+.process{
+  width: 100%;
+}

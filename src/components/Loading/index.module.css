@@ -1,0 +1,93 @@
+.loading-x{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #FED06F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align:center;
+}
+.loading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.text{
+    color:white
+}
+.loading-movie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/*给loadingDot配置循环上下跳动动画,三个点依次按顺序弹起来*/
+@keyframes loadingDot2{
+    0%{
+        transform: translateY(0);
+    }
+    15%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes loadingDot1{
+    0%{
+        transform: translateY(-10px);
+    }
+    25%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    75%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@keyframes loadingDot3{
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(0);
+    }
+    35%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.loadingDot1{
+    animation: loadingDot1 1.3s infinite;
+}
+.loadingDot2{
+    animation: loadingDot2 1.3s infinite;
+}
+.loadingDot3{
+    animation: loadingDot3 1.3s infinite;
+}
+
+
+.loadingDot{
+    width:10px;
+    height:10px;
+    background-color:white;
+    border-radius:50%;
+    margin: 0 5px;
+}

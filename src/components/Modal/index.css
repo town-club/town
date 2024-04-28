@@ -1,0 +1,68 @@
+.modalOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  transition: 0.5s all ease-in-out;
+}
+.child {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+}
+.modal {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 80%;
+  position: relative;
+  max-width: 400px;
+  transition: modal-fade 0.1s ease-in-out;
+  opacity: 0;
+}
+.modal--open {
+  opacity: 1;
+}
+.modal--close {
+  opacity: 0;
+}
+.modal__title {
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 2px 1px 0px 0px #0057b1;
+  font-family: Resource Han Rounded CN;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+}
+.closeBtn {
+  position: absolute;
+  top: 105%;
+  right: 43%;
+  z-index: 101;
+}
+.backgroundImage {
+  width: 100%;
+  margin: auto;
+  z-index: -1;
+}
+
+@keyframes modal-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
