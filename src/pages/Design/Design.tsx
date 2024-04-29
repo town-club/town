@@ -67,7 +67,7 @@ const Dev = () => {
           <div className={style.modalOut}>
             <img src={DesignPage1} alt="design" className={style.modalImg1} />
             <div className={style.modalText1}>
-            芜湖！小家园的设计规范出自设计同学的妙手～
+            在设计的日常工作中，设计规范是非常重要的一环
             </div>
           </div>
         </Modal>
@@ -80,9 +80,7 @@ const Dev = () => {
               style={{
                 textAlign: 'center',
               }}>
-              小镇筑梦者 <br />
-              空白画布用画笔描绘
-              <br /> 用色彩填充
+              设计可以分为平面设计、UI、UX、交互设计、视觉设计等多个岗位
             </div>
           </div>
         </Modal>
@@ -93,7 +91,7 @@ const Dev = () => {
           <div className={style.modalOut}>
             <img src={DesignPage3} alt="design" className={style.modalImg1} />
             <div className={style.modalText1}>
-              充满创造力的奇思妙想从笔尖流出
+            互联网行业的设计更侧重于页面设计，根据需求来完成设计
             </div>
           </div>
         </Modal>
@@ -104,7 +102,7 @@ const Dev = () => {
           type="des">
           <div className={style.modalOut}>
             <img src={DesignPage4} alt="design" className={style.modalImg1} />
-            <div className={style.modalText1}>创作永不停歇，我们在路上</div>
+            <div className={style.modalText1}>设计需要长时间的积淀，多多阅读优秀作品是非常重要的</div>
           </div>
         </Modal>
       </div>
