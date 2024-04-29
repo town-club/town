@@ -1,6 +1,7 @@
-import { FC, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import css from './index.module.css'
 import { loginApi } from "@/util/loginApi";
+import { useNavigate } from "react-router-dom";
 
 export type User = {
   username:string,
@@ -11,7 +12,13 @@ const Login:FC<{}> = ()=>{
     username:'',
     password:''
   })
-
+  const navigate = useNavigate()
+  useEffect(()=>{
+    const token = localStorage.getItem('token')
+    if (token) {
+      navigate('/home/town')
+    }
+  },[])
   const login = ()=>{
     if (!value.username || !value.password) {
       alert('输入不能为空')

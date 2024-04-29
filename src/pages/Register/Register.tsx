@@ -1,7 +1,8 @@
 import { loginApi } from "@/util/loginApi"
-import { FC, useState } from "react"
+import { FC, useEffect, useState } from "react"
 import { User } from "../Login/Login"
 import css from './index.module.css'
+import { useNavigate } from "react-router-dom"
 const Register:FC<{}> = () => {
   const [value,setValue] = useState<User & {
     ensurePassword:string
@@ -10,6 +11,8 @@ const Register:FC<{}> = () => {
     password:'',
     ensurePassword:''
   })
+  const navigate = useNavigate()
+  
 
   const login = ()=>{
     if (value.password !== value.ensurePassword) {
