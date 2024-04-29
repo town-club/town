@@ -49,6 +49,9 @@
       ],
       "@CheckHome/*": [
         "src/components/CheckHome/*"
+      ],
+      "@util/*": [
+        "src/util/*"
       ]
     }
   },

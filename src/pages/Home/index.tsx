@@ -20,9 +20,21 @@ export default function Home() {
       autoplay: true,
     });
   }, []);
+  
+  //路由登录保护
+  useEffect(()=>{
+    const token = localStorage.getItem('token')
+    console.log(token)
+    if (!token) {
+      window.location.href = '/login'
+    }
+  },[])
   const isDialog = useDialogStore((state) => state.isDialog);
   const text = useDialogStore((state) => state.text);
   const img = useDialogStore((state) => state.img);
+  
+  
+  
   return (
     <div
       className={css.x}

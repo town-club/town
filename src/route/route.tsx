@@ -1,5 +1,7 @@
 import React, { Children } from "react";
 import { Navigate } from "react-router-dom";
+import Login from "@/pages/Login/Login";
+import Register from "@/pages/Register/Register";
 const Home  = React.lazy(() => import("@pages/Home"));
 const Town = React.lazy(() => import("@/pages/Town"));
 const Gov = React.lazy(() => import("@pages/Gov/Gov"));
@@ -12,6 +14,7 @@ const NotFoundPage = React.lazy(() => import("@pages/NotFound"));
 const Info = React.lazy(() => import("@pages/Info"));
 const Ginshin = React.lazy(() => import("@pages/GinshenImpart"))
 const CheckHome = React.lazy(()=> import("@components/CheckHome"))
+
 const route = [
   {
     path: "/home",
@@ -55,6 +58,14 @@ const route = [
   {
     path: "/info",
     element: <Info />,
+  },
+  {
+    path: '/login',
+    element: <Login />,
+  },
+  {
+    path: '/register',
+    element: <Register />,
   },
   {
     path: "",
