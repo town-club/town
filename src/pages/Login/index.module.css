@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f0;
+  background-color: #FCD788;;
 }
 
 .formBox{
@@ -17,7 +17,7 @@
   row-gap: 10px;
   color: #081878;
   /**毛玻璃效果*/
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 20px;

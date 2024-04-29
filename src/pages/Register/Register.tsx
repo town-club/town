@@ -60,7 +60,7 @@ const Register:FC<{}> = () => {
           })
         }}/>
         <button onClick={login}>注册</button>
-        <span>已有账号，点我去<a href="/register">登录</a></span>
+        <span>已有账号，点我去<a href="/login">登录</a></span>
       </div>
     </div>
     
