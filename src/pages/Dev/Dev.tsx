@@ -116,7 +116,7 @@ const Dev = () => {
                 }}
               />
               <div className={style.modalText1}>
-                不会编程的土拨鼠不是好gopher
+              Go已成为许多公司和团队构建后端服务的首选语言，也有专门的职位为其所开
               </div>
             </div>
           </Modal>
@@ -135,21 +135,20 @@ const Dev = () => {
                 }}
               />
               <div className={style.modalText1}>
-                技能大爆发！用js来写个页面吧~
+              js是前端开发中的常用语言，广泛应用构建Web应用程序、单页应用、移动应用等
               </div>
             </div>
           </Modal>
           <Modal
             isOpen={openedNum === 2}
             onClose={closeModal}
-            title="1024程序节"
+            title="开发方向"
             type="dev">
             <div className={style.modalOut}>
               <img src={DevPage4} alt="dev" className={style.modalImg1} />
-
-              <div className={style.modalText2}>1024程序员大揭秘</div>
+              <div className={style.modalText2}>开发方向</div>
               <div className={style.modalText1}>
-                我们采访了这些同学,才发现程序员还有这一面
+              研发方向有为前端、后端、全栈、运维等多个岗位，选择合适自己的方向非常重要
               </div>
             </div>
           </Modal>
