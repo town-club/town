@@ -18,7 +18,7 @@ const surpriseData = [
     title: "聘书",
   },
   {
-    text:"听说家园还有开创副业，不会是美容美发美甲吧？",
+    text:"牛客、智联招聘等其实都能看到招聘的信息哦",
     img: niuke,
     title:"牛客"
   }

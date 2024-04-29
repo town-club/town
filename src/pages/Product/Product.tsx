@@ -65,7 +65,7 @@ const Pro = () => {
           <Modal
             isOpen={openedNum === 1}
             onClose={closeModal}
-            title="家园小镇"
+            title="产品经理"
             type="pro"
           >
             <div className={style.modalOut}>
@@ -78,7 +78,7 @@ const Pro = () => {
                 }}
               />
               <div className={style.modalText1}>
-                你所在的小镇，是家园产品一步步构思出来的哦！
+              产品经理非常看重逻辑思维能力和创新思考批判能力，还有不要忘记流程图、泳道图等必备能力
               </div>
             </div>
           </Modal>
@@ -91,40 +91,40 @@ const Pro = () => {
             <div className={style.modalOut}>
               <img src={ProPage2} alt="pro" className={style.modalImg1} />
               <div className={style.modalText1}>
-                Figma是每个产品人的必备技能，产品组最常用的工具之一
+              常用的软件有思维导图、Axure、Figma，多尝试才能胜任此岗位哦
               </div>
             </div>
           </Modal>
           <Modal
             isOpen={openedNum === 3}
             onClose={closeModal}
-            title="“决战绿茵”"
+            title="产品经理"
             type="pro"
           >
             <div className={style.modalOut}>
               <img src={ProPage3} alt="pro" className={style.modalImg1} />
               <div className={style.modalText1}>
-                世界杯期间家园活动产品，家园产品经理为南大人打造了自己的竞猜平台。
+              产品经理需要非常强的沟通能力和写作能力
               </div>
             </div>
           </Modal>
           <Modal
             isOpen={openedNum === 4}
             onClose={closeModal}
-            title="Hackweek大赛"
+            title="产品岗位"
             type="pro"
           >
             <div className={style.modalOut}>
               <img src={ProPage4} alt="pro" className={style.modalImg1} />
               <div className={style.modalText1}>
-                产品经理和其所在的项目组用七天将想法变成现实
+              产品岗位是近些年兴起的、入职门槛相对较低的行业
               </div>
             </div>
           </Modal>
           <Modal
             isOpen={openedNum === 5}
             onClose={closeModal}
-            title="漫游指北"
+            title="产品经理"
             type="pro"
           >
             <div className={style.modalOut}>
@@ -135,7 +135,7 @@ const Pro = () => {
                 style={{ width: "28%" }}
               />
               <div className={style.modalText1}>
-                漫游指北是产品组构想，家园自主开发的一款解答校园生活问题的产品喔~可以到南大家园-微应用中体验
+              产品经理负责统筹项目的整体流程以及确保产品从构思到发布的每个阶段都符合客户需求和商业目标
               </div>
             </div>
           </Modal>

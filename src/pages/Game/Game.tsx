@@ -57,7 +57,7 @@ export default function Game() {
           <Modal
             isOpen={openedNum === 1}
             onClose={closeModal}
-            title="忏悔日"
+            title="游戏执行策划"
             type="game">
             <div className={style.modalOut}>
               <img src={GamePage1} alt="game" className={style.modalImg1} />
@@ -66,9 +66,7 @@ export default function Game() {
                 style={{
                   fontSize: '16px',
                 }}>
-                游戏组自主研发的游戏《忏悔日》，入围了2023cusga
-                最佳解密游戏，是接入了GPT的
-                高自由度对话类解谜游戏，可以在招新群中获得下载链接喔～
+                游戏执行策划岗位是一个门槛相对较低的岗位，快了解一下吧！
               </div>
             </div>
           </Modal>
@@ -76,12 +74,12 @@ export default function Game() {
           <Modal
             isOpen={openedNum === 2}
             onClose={closeModal}
-            title="梦境"
+            title="游戏岗位"
             type="game">
             <div className={style.modalOut}>
               <img src={GamePage2} alt="game" className={style.modalImg1} />
               <div className={style.modalText1}>
-              “梦境”是游戏组自主研发的横版动作RPG游戏，可以在招新群中获得下载链接喔～
+              游戏岗位主要分为游戏策划、游戏美术、程序设计三部分，选择你适合的方向非常重要！
               </div>
             </div>
           </Modal>
@@ -89,24 +87,24 @@ export default function Game() {
           <Modal
             isOpen={openedNum === 3}
             onClose={closeModal}
-            title="宝可梦球"
+            title="游戏公司"
             type="game">
             <div className={style.modalOut}>
               <img src={GamePage3} alt="game" className={style.modalImg1} />
               <div className={style.modalText1}>
-                来制作游戏的世界里进行一场大冒险吧~
+              许多游戏公司都是起源于一个游戏
               </div>
             </div>
           </Modal>
           <Modal
             isOpen={openedNum === 4}
             onClose={closeModal}
-            title="游戏机"
+            title="Unity"
             type="game">
             <div className={style.modalOut}>
               <img src={GamePage4} alt="game" className={style.modalImg1} />
               <div className={style.modalText1}>
-                比起玩游戏，不觉得做游戏更酷一点吗~
+              Unity是主流的游戏编程引擎，掌握他对于日后求职非常有帮助
               </div>
             </div>
           </Modal>

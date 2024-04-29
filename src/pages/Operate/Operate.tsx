@@ -63,20 +63,20 @@ const Operate = () => {
         <Modal
           isOpen={openedNum === 1}
           onClose={closeModal}
-          title="家园人谈实习"
+          title="运营数据分析"
           type="ope"
         >
           <div className={style.modalOut}>
             <img src={OperatePage4} alt="operate" className={style.modalImg1} />
             <div className={style.modalText1}>
-              来看看家园人是怎么谈实习推文的吧，可以在招新群中获得视频链接喔~
+            运营岗位中很重要的一环是数据分析，也许比你想象的投简历门槛要低哦
             </div>
           </div>
         </Modal>
         <Modal
           isOpen={openedNum === 2}
           onClose={closeModal}
-          title="家园推介会"
+          title="运营工作"
           type="ope"
         >
           <div className={style.modalOut}>
@@ -89,7 +89,7 @@ const Operate = () => {
               }}
             />
             <div className={style.modalText1}>
-            这些都是运营小伙伴们大展拳脚的地方
+            运营不只是发推文，查看用户流失、分析数据有时也是运营的工作哦
             </div>
           </div>
         </Modal>
@@ -102,19 +102,19 @@ const Operate = () => {
           <div className={style.modalOut}>
             <img src={OperatePage2} alt="operate" className={style.modalImg1} />
             <div className={style.modalText1} style={{ textAlign: "center" }}>
-              家园推介会，梦想起飞的地方~可以在招新群中获得视频链接喔
+            运营产品也是一个新型职位，要抓住信息差更有竞争力哦
             </div>
           </div>
         </Modal>
         <Modal
           isOpen={openedNum === 4}
           onClose={closeModal}
-          title="运营大合照"
+          title="运营岗位"
           type="ope"
         >
           <div className={style.modalOut}>
             <img src={OperatePage5} alt="operate" className={style.modalImg1} />
-            <div className={style.modalText1}>欢迎加入我们运营温暖大家庭~</div>
+            <div className={style.modalText1}>运营的入职门槛相对较低，但是提升空间很高哦</div>
           </div>
         </Modal>
       </div>
