@@ -64,49 +64,48 @@ const Dev = () => {
         <Modal
           isOpen={openedNum === 1}
           onClose={closeModal}
-          title="精彩活动"
+          title="技能学习"
           type="gov">
           <div className={style.modalOut}>
             <img src={GovPage2} alt="gov" className={style.modalImg1} />
             <div className={style.modalText1}>
-              什么？你居然还不知道全体大会和 Hackweek
-              大赛！你简直错过了全世界最有意思的事情！
+            行政往往需要有多项技能，是互联网公司的连结关键
             </div>
           </div>
         </Modal>
         <Modal
           isOpen={openedNum === 2}
           onClose={closeModal}
-          title="特别时刻"
+          title="活动协调"
           type="gov">
           <div className={style.modalOut}>
             <img src={GovPage3} alt="gov" className={style.modalImg1} />
             <div className={style.modalText1}>
-              在特定的日子里，我们会为每一位家园人送上祝福
+            短时间内组织会议、协调活动或处理突发事件是互联网行政的特色
             </div>
           </div>
         </Modal>
         <Modal
           isOpen={openedNum === 3}
           onClose={closeModal}
-          title="有趣团建"
+          title="团建安排"
           type="gov">
           <div className={style.modalOut}>
             <img src={GovPage4} alt="gov" className={style.modalImg1} />
             <div className={style.modalText1}>
-              行政出动！好玩有趣的团建活动是我们的精心安排
+            互联网大厂通常重视员工体验和企业文化，行政需要妥当安排事务
             </div>
           </div>
         </Modal>
         <Modal
           isOpen={openedNum === 4}
           onClose={closeModal}
-          title="行政组"
+          title="行政"
           type="gov">
           <div className={style.modalOut}>
             <img src={GovPage5} alt="gov" className={style.modalImg1} />
             <div className={style.modalText1}>
-            每一个精彩策划案，都离不开行政人背后的付出
+            行政需要熟悉各种数字工具和软件，项目管理软件，以及内部通信平台等
             </div>
           </div>
         </Modal>
@@ -125,7 +124,7 @@ const Dev = () => {
               }}
             />
             <div className={style.modalText1}>
-              从前台到幕后，行政执行官们一丝不苟地照顾好每一处细节，大到举办活动，小到值班打卡考勤...
+            基于互联网将组织变得扁平化，行政需要掌握跨职能团队沟通能力
             </div>
           </div>
         </Modal>
