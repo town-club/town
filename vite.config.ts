@@ -2,6 +2,7 @@ import { defineConfig, splitVendorChunkPlugin } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import postcssPresetEnv from 'postcss-preset-env'
 import HtmlPrefetch from './plugins/HtmlPrefetch'
+import { ViteAliases } from 'vite-aliases'
 import { CJK, literalsCollector } from 'vite-plugin-literals-collector'
 const paths = [
   'src/pages/Home/index.tsx',
@@ -74,6 +75,10 @@ export default defineConfig({
   },
   plugins: [
     react(),
+    ViteAliases({
+      dir: 'src',
+      prefix: '@',
+    }),
     HtmlPrefetch('src/index.tsx', paths),
     splitVendorChunkPlugin(),
     literalsCollector({
