@@ -34,43 +34,12 @@ const Dev = () => {
   useShowPop(setOpenedNum, 'dev', 3)
   //设置dialog钩子
   useShowDialog('dev')
-  //原神独有彩蛋
-  useEffect(() => {
-    document.getElementById('ginshen').addEventListener('click', () => {
-      ReactGA4.event({
-        category: "ginshen",
-        action:"ginshen-impart surprise"
-      })
-      const music: any | null = document.getElementById('ginshen-music')
-      music.play()
-      const ani = anime({
-        targets: allRef.current,
-        scale: [1, 5],
-        translateX: ['0%', '20%'],
-        duration: 6000,
-        easing: 'linear',
-      })
-      ani.finished.then(() => {
-        setIsDisplay(true)
-      })
-    })
-  }, [])
   //此处可以使用策略模式，复盘建议吸取
   const closeModal = () => {
     setOpenedNum(0)
   }
   useEffect(() => {
-    if (isDisplay) {
-      const ani = anime({
-        targets: whiteRef.current,
-        opacity: [0, 1],
-        duration: 1000,
-        easing: 'linear',
-      })
-      ani.finished.then(() => {
-        navigate('/ginshen-impart')
-      })
-    }
+    
   }, [isDisplay])
   const backTown = () => {
     navigate(-1)
@@ -155,13 +124,6 @@ const Dev = () => {
           </Modal>
         </div>
       </div>
-      <div
-        className={style.whiteBackground}
-        style={{
-          opacity: opacity,
-          display: isDisplay ? 'block' : 'none',
-        }}
-        ref={whiteRef}></div>
       <img className={style.back} src={back} onClick={backTown}></img>
       {isInnerPass &&
         (window.innerWidth < 600 ? (
