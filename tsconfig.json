@@ -52,6 +52,12 @@
       ],
       "@util/*": [
         "src/util/*"
+      ],
+      "@Register/*": [
+        "src/pages/Register/*"
+      ],
+      "@Login/*": [
+        "src/pages/Login/*"
       ]
     }
   },
