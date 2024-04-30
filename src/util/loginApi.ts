@@ -1,7 +1,7 @@
 import axios from "axios"
 
 class LoginApi {
-  private bath = "http://1.15.123.253:8081/api"
+  private bath = "https://1.15.123.253:8081/api"
   private urls = {
     login: '/user/login',
     register: '/user/register',
