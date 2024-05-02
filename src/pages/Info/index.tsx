@@ -25,7 +25,7 @@ export default function index() {
     >
       <div className={css.buttonX}>
         <button className={css.back} onClick={()=>{
-          window.location.href = "https://town.ncuos.com/home/town";
+          window.location.href = "https://jobtown.netlify.app/home/town";
         }}>返回</button>
       </div>
       <div className={css.x}>
